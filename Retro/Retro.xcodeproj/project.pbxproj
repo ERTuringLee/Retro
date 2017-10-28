@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBB85F2C1A4FCE0A0027623E /* Korail_logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F2B1A4FCE0A0027623E /* Korail_logo.jpg */; };
+		CBB85F2E1A4FD0FC0027623E /* Airport.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F2D1A4FD0FC0027623E /* Airport.jpg */; };
+		CBB85F361A4FD2100027623E /* StationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB85F351A4FD2100027623E /* StationViewController.m */; };
+		CBB85F381A4FD6DB0027623E /* GJ.png in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F371A4FD6DB0027623E /* GJ.png */; };
+		CBB85F461A4FDC600027623E /* 1line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F451A4FDC600027623E /* 1line.jpg */; };
+		CBB85F481A4FDF230027623E /* metro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F471A4FDF230027623E /* metro.jpg */; };
+		CBB85F4A1A4FE2170027623E /* logo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F491A4FE2170027623E /* logo2.jpg */; };
+		CBB85F4C1A4FE34F0027623E /* metro9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F4B1A4FE34F0027623E /* metro9.jpg */; };
+		CBB85F4E1A4FE3CB0027623E /* YI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F4D1A4FE3CB0027623E /* YI.jpg */; };
+		CBB85F501A4FE45B0027623E /* UI.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F4F1A4FE45B0027623E /* UI.jpg */; };
+		CBB85F521A4FE4B90027623E /* NB.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F511A4FE4B90027623E /* NB.jpg */; };
+		CBB85F541A4FE8770027623E /* IL.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F531A4FE8770027623E /* IL.jpg */; };
+		CBB85F561A4FE93C0027623E /* IL1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F551A4FE93C0027623E /* IL1.jpg */; };
+		CBB85F581A4FEB4A0027623E /* 2line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F571A4FEB4A0027623E /* 2line.jpg */; };
+		CBB85F601A4FEDD20027623E /* 3line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F591A4FEDD20027623E /* 3line.jpg */; };
+		CBB85F611A4FEDD20027623E /* 4line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F5A1A4FEDD20027623E /* 4line.jpg */; };
+		CBB85F621A4FEDD20027623E /* 5line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F5B1A4FEDD20027623E /* 5line.jpg */; };
+		CBB85F631A4FEDD20027623E /* 6line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F5C1A4FEDD20027623E /* 6line.jpg */; };
+		CBB85F641A4FEDD20027623E /* 7line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F5D1A4FEDD20027623E /* 7line.jpg */; };
+		CBB85F651A4FEDD20027623E /* 8line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F5E1A4FEDD20027623E /* 8line.jpg */; };
+		CBB85F661A4FEDD20027623E /* 9line.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F5F1A4FEDD20027623E /* 9line.jpg */; };
+		CBB85F6B1A4FEE060027623E /* NBline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F671A4FEE060027623E /* NBline.jpg */; };
+		CBB85F6C1A4FEE060027623E /* Suinline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F681A4FEE060027623E /* Suinline.jpg */; };
+		CBB85F6D1A4FEE060027623E /* Uline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F691A4FEE060027623E /* Uline.jpg */; };
+		CBB85F6E1A4FEE060027623E /* Yline.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F6A1A4FEE060027623E /* Yline.jpg */; };
+		CBB85F701A4FEE450027623E /* B.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBB85F6F1A4FEE450027623E /* B.jpg */; };
+		CBB8E0661A4FAC0400C45960 /* LineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB8E0651A4FAC0400C45960 /* LineViewController.m */; };
+		CBB8E06B1A4FB53300C45960 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CBB8E06A1A4FB53300C45960 /* Main.storyboard */; };
+		CBB8EE601A4EE4FA006A67E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB8EE5F1A4EE4FA006A67E1 /* AppDelegate.m */; };
+		CBB8EE621A4EE4FA006A67E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB8EE611A4EE4FA006A67E1 /* main.m */; };
+		CBB8EE651A4EE4FA006A67E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB8EE641A4EE4FA006A67E1 /* ViewController.m */; };
+		CBB8EE671A4EE4FA006A67E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBB8EE661A4EE4FA006A67E1 /* Images.xcassets */; };
+		CBB8EE761A4EE4FA006A67E1 /* RetroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBB8EE751A4EE4FA006A67E1 /* RetroTests.m */; };
+		CBB8EE801A4EEA08006A67E1 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = CBB8EE7F1A4EEA08006A67E1 /* data.txt */; };
+		CBBA5FC71A500E1B00C84B75 /* GC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBBA5FC61A500E1B00C84B75 /* GC.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBB8EE701A4EE4FA006A67E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBB8EE511A4EE4FA006A67E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBB8EE581A4EE4FA006A67E1;
+			remoteInfo = Retro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBB85F2B1A4FCE0A0027623E /* Korail_logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Korail_logo.jpg; sourceTree = "<group>"; };
+		CBB85F2D1A4FD0FC0027623E /* Airport.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Airport.jpg; sourceTree = "<group>"; };
+		CBB85F341A4FD2100027623E /* StationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationViewController.h; sourceTree = "<group>"; };
+		CBB85F351A4FD2100027623E /* StationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationViewController.m; sourceTree = "<group>"; };
+		CBB85F371A4FD6DB0027623E /* GJ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GJ.png; sourceTree = "<group>"; };
+		CBB85F451A4FDC600027623E /* 1line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1line.jpg; sourceTree = "<group>"; };
+		CBB85F471A4FDF230027623E /* metro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metro.jpg; sourceTree = "<group>"; };
+		CBB85F491A4FE2170027623E /* logo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo2.jpg; sourceTree = "<group>"; };
+		CBB85F4B1A4FE34F0027623E /* metro9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = metro9.jpg; sourceTree = "<group>"; };
+		CBB85F4D1A4FE3CB0027623E /* YI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = YI.jpg; sourceTree = "<group>"; };
+		CBB85F4F1A4FE45B0027623E /* UI.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = UI.jpg; sourceTree = "<group>"; };
+		CBB85F511A4FE4B90027623E /* NB.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NB.jpg; sourceTree = "<group>"; };
+		CBB85F531A4FE8770027623E /* IL.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IL.jpg; sourceTree = "<group>"; };
+		CBB85F551A4FE93C0027623E /* IL1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IL1.jpg; sourceTree = "<group>"; };
+		CBB85F571A4FEB4A0027623E /* 2line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2line.jpg; sourceTree = "<group>"; };
+		CBB85F591A4FEDD20027623E /* 3line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3line.jpg; sourceTree = "<group>"; };
+		CBB85F5A1A4FEDD20027623E /* 4line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4line.jpg; sourceTree = "<group>"; };
+		CBB85F5B1A4FEDD20027623E /* 5line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5line.jpg; sourceTree = "<group>"; };
+		CBB85F5C1A4FEDD20027623E /* 6line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6line.jpg; sourceTree = "<group>"; };
+		CBB85F5D1A4FEDD20027623E /* 7line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7line.jpg; sourceTree = "<group>"; };
+		CBB85F5E1A4FEDD20027623E /* 8line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8line.jpg; sourceTree = "<group>"; };
+		CBB85F5F1A4FEDD20027623E /* 9line.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9line.jpg; sourceTree = "<group>"; };
+		CBB85F671A4FEE060027623E /* NBline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NBline.jpg; sourceTree = "<group>"; };
+		CBB85F681A4FEE060027623E /* Suinline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Suinline.jpg; sourceTree = "<group>"; };
+		CBB85F691A4FEE060027623E /* Uline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Uline.jpg; sourceTree = "<group>"; };
+		CBB85F6A1A4FEE060027623E /* Yline.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Yline.jpg; sourceTree = "<group>"; };
+		CBB85F6F1A4FEE450027623E /* B.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = B.jpg; sourceTree = "<group>"; };
+		CBB8E0641A4FAC0400C45960 /* LineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineViewController.h; sourceTree = "<group>"; };
+		CBB8E0651A4FAC0400C45960 /* LineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineViewController.m; sourceTree = "<group>"; };
+		CBB8E06A1A4FB53300C45960 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		CBB8EE591A4EE4FA006A67E1 /* Retro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Retro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB8EE5D1A4EE4FA006A67E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB8EE5E1A4EE4FA006A67E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CBB8EE5F1A4EE4FA006A67E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CBB8EE611A4EE4FA006A67E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBB8EE631A4EE4FA006A67E1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CBB8EE641A4EE4FA006A67E1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CBB8EE661A4EE4FA006A67E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CBB8EE6F1A4EE4FA006A67E1 /* RetroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBB8EE741A4EE4FA006A67E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB8EE751A4EE4FA006A67E1 /* RetroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetroTests.m; sourceTree = "<group>"; };
+		CBB8EE7F1A4EEA08006A67E1 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
+		CBBA5FC61A500E1B00C84B75 /* GC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GC.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBB8EE561A4EE4FA006A67E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB8EE6C1A4EE4FA006A67E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBB8EE501A4EE4FA006A67E1 = {
+			isa = PBXGroup;
+			children = (
+				CBB8EE5B1A4EE4FA006A67E1 /* Retro */,
+				CBB8EE721A4EE4FA006A67E1 /* RetroTests */,
+				CBB8EE5A1A4EE4FA006A67E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBB8EE5A1A4EE4FA006A67E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBB8EE591A4EE4FA006A67E1 /* Retro.app */,
+				CBB8EE6F1A4EE4FA006A67E1 /* RetroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBB8EE5B1A4EE4FA006A67E1 /* Retro */ = {
+			isa = PBXGroup;
+			children = (
+				CBB8EE5E1A4EE4FA006A67E1 /* AppDelegate.h */,
+				CBB8EE5F1A4EE4FA006A67E1 /* AppDelegate.m */,
+				CBB8EE631A4EE4FA006A67E1 /* ViewController.h */,
+				CBB8EE641A4EE4FA006A67E1 /* ViewController.m */,
+				CBB8EE661A4EE4FA006A67E1 /* Images.xcassets */,
+				CBB8EE5C1A4EE4FA006A67E1 /* Supporting Files */,
+				CBB8E0641A4FAC0400C45960 /* LineViewController.h */,
+				CBB8E0651A4FAC0400C45960 /* LineViewController.m */,
+				CBB85F341A4FD2100027623E /* StationViewController.h */,
+				CBB85F351A4FD2100027623E /* StationViewController.m */,
+				CBB8E06A1A4FB53300C45960 /* Main.storyboard */,
+			);
+			path = Retro;
+			sourceTree = "<group>";
+		};
+		CBB8EE5C1A4EE4FA006A67E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBBA5FC61A500E1B00C84B75 /* GC.jpg */,
+				CBB85F6F1A4FEE450027623E /* B.jpg */,
+				CBB85F671A4FEE060027623E /* NBline.jpg */,
+				CBB85F681A4FEE060027623E /* Suinline.jpg */,
+				CBB85F691A4FEE060027623E /* Uline.jpg */,
+				CBB85F6A1A4FEE060027623E /* Yline.jpg */,
+				CBB85F591A4FEDD20027623E /* 3line.jpg */,
+				CBB85F5A1A4FEDD20027623E /* 4line.jpg */,
+				CBB85F5B1A4FEDD20027623E /* 5line.jpg */,
+				CBB85F5C1A4FEDD20027623E /* 6line.jpg */,
+				CBB85F5D1A4FEDD20027623E /* 7line.jpg */,
+				CBB85F5E1A4FEDD20027623E /* 8line.jpg */,
+				CBB85F5F1A4FEDD20027623E /* 9line.jpg */,
+				CBB85F571A4FEB4A0027623E /* 2line.jpg */,
+				CBB85F551A4FE93C0027623E /* IL1.jpg */,
+				CBB85F531A4FE8770027623E /* IL.jpg */,
+				CBB85F511A4FE4B90027623E /* NB.jpg */,
+				CBB85F4F1A4FE45B0027623E /* UI.jpg */,
+				CBB85F4D1A4FE3CB0027623E /* YI.jpg */,
+				CBB85F4B1A4FE34F0027623E /* metro9.jpg */,
+				CBB85F491A4FE2170027623E /* logo2.jpg */,
+				CBB85F471A4FDF230027623E /* metro.jpg */,
+				CBB85F451A4FDC600027623E /* 1line.jpg */,
+				CBB85F371A4FD6DB0027623E /* GJ.png */,
+				CBB85F2D1A4FD0FC0027623E /* Airport.jpg */,
+				CBB85F2B1A4FCE0A0027623E /* Korail_logo.jpg */,
+				CBB8EE7F1A4EEA08006A67E1 /* data.txt */,
+				CBB8EE5D1A4EE4FA006A67E1 /* Info.plist */,
+				CBB8EE611A4EE4FA006A67E1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBB8EE721A4EE4FA006A67E1 /* RetroTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBB8EE751A4EE4FA006A67E1 /* RetroTests.m */,
+				CBB8EE731A4EE4FA006A67E1 /* Supporting Files */,
+			);
+			path = RetroTests;
+			sourceTree = "<group>";
+		};
+		CBB8EE731A4EE4FA006A67E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBB8EE741A4EE4FA006A67E1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBB8EE581A4EE4FA006A67E1 /* Retro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB8EE791A4EE4FA006A67E1 /* Build configuration list for PBXNativeTarget "Retro" */;
+			buildPhases = (
+				CBB8EE551A4EE4FA006A67E1 /* Sources */,
+				CBB8EE561A4EE4FA006A67E1 /* Frameworks */,
+				CBB8EE571A4EE4FA006A67E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Retro;
+			productName = Retro;
+			productReference = CBB8EE591A4EE4FA006A67E1 /* Retro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBB8EE6E1A4EE4FA006A67E1 /* RetroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBB8EE7C1A4EE4FA006A67E1 /* Build configuration list for PBXNativeTarget "RetroTests" */;
+			buildPhases = (
+				CBB8EE6B1A4EE4FA006A67E1 /* Sources */,
+				CBB8EE6C1A4EE4FA006A67E1 /* Frameworks */,
+				CBB8EE6D1A4EE4FA006A67E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBB8EE711A4EE4FA006A67E1 /* PBXTargetDependency */,
+			);
+			name = RetroTests;
+			productName = RetroTests;
+			productReference = CBB8EE6F1A4EE4FA006A67E1 /* RetroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBB8EE511A4EE4FA006A67E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "이재문";
+				TargetAttributes = {
+					CBB8EE581A4EE4FA006A67E1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					CBB8EE6E1A4EE4FA006A67E1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = CBB8EE581A4EE4FA006A67E1;
+					};
+				};
+			};
+			buildConfigurationList = CBB8EE541A4EE4FA006A67E1 /* Build configuration list for PBXProject "Retro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBB8EE501A4EE4FA006A67E1;
+			productRefGroup = CBB8EE5A1A4EE4FA006A67E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBB8EE581A4EE4FA006A67E1 /* Retro */,
+				CBB8EE6E1A4EE4FA006A67E1 /* RetroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBB8EE571A4EE4FA006A67E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB85F521A4FE4B90027623E /* NB.jpg in Resources */,
+				CBB85F2C1A4FCE0A0027623E /* Korail_logo.jpg in Resources */,
+				CBB85F631A4FEDD20027623E /* 6line.jpg in Resources */,
+				CBB85F581A4FEB4A0027623E /* 2line.jpg in Resources */,
+				CBB85F651A4FEDD20027623E /* 8line.jpg in Resources */,
+				CBB8E06B1A4FB53300C45960 /* Main.storyboard in Resources */,
+				CBB85F611A4FEDD20027623E /* 4line.jpg in Resources */,
+				CBB85F661A4FEDD20027623E /* 9line.jpg in Resources */,
+				CBB85F561A4FE93C0027623E /* IL1.jpg in Resources */,
+				CBB85F6D1A4FEE060027623E /* Uline.jpg in Resources */,
+				CBB85F6B1A4FEE060027623E /* NBline.jpg in Resources */,
+				CBB85F641A4FEDD20027623E /* 7line.jpg in Resources */,
+				CBB8EE671A4EE4FA006A67E1 /* Images.xcassets in Resources */,
+				CBB85F501A4FE45B0027623E /* UI.jpg in Resources */,
+				CBB8EE801A4EEA08006A67E1 /* data.txt in Resources */,
+				CBB85F6C1A4FEE060027623E /* Suinline.jpg in Resources */,
+				CBB85F4A1A4FE2170027623E /* logo2.jpg in Resources */,
+				CBB85F601A4FEDD20027623E /* 3line.jpg in Resources */,
+				CBB85F4C1A4FE34F0027623E /* metro9.jpg in Resources */,
+				CBB85F381A4FD6DB0027623E /* GJ.png in Resources */,
+				CBB85F2E1A4FD0FC0027623E /* Airport.jpg in Resources */,
+				CBB85F461A4FDC600027623E /* 1line.jpg in Resources */,
+				CBBA5FC71A500E1B00C84B75 /* GC.jpg in Resources */,
+				CBB85F701A4FEE450027623E /* B.jpg in Resources */,
+				CBB85F4E1A4FE3CB0027623E /* YI.jpg in Resources */,
+				CBB85F621A4FEDD20027623E /* 5line.jpg in Resources */,
+				CBB85F541A4FE8770027623E /* IL.jpg in Resources */,
+				CBB85F6E1A4FEE060027623E /* Yline.jpg in Resources */,
+				CBB85F481A4FDF230027623E /* metro.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB8EE6D1A4EE4FA006A67E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBB8EE551A4EE4FA006A67E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB8EE651A4EE4FA006A67E1 /* ViewController.m in Sources */,
+				CBB8EE621A4EE4FA006A67E1 /* main.m in Sources */,
+				CBB85F361A4FD2100027623E /* StationViewController.m in Sources */,
+				CBB8E0661A4FAC0400C45960 /* LineViewController.m in Sources */,
+				CBB8EE601A4EE4FA006A67E1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBB8EE6B1A4EE4FA006A67E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB8EE761A4EE4FA006A67E1 /* RetroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBB8EE711A4EE4FA006A67E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBB8EE581A4EE4FA006A67E1 /* Retro */;
+			targetProxy = CBB8EE701A4EE4FA006A67E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CBB8EE771A4EE4FA006A67E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CBB8EE781A4EE4FA006A67E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CBB8EE7A1A4EE4FA006A67E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Retro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CBB8EE7B1A4EE4FA006A67E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Retro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CBB8EE7D1A4EE4FA006A67E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retro.app/Contents/MacOS/Retro";
+			};
+			name = Debug;
+		};
+		CBB8EE7E1A4EE4FA006A67E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RetroTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Retro.app/Contents/MacOS/Retro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBB8EE541A4EE4FA006A67E1 /* Build configuration list for PBXProject "Retro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB8EE771A4EE4FA006A67E1 /* Debug */,
+				CBB8EE781A4EE4FA006A67E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB8EE791A4EE4FA006A67E1 /* Build configuration list for PBXNativeTarget "Retro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB8EE7A1A4EE4FA006A67E1 /* Debug */,
+				CBB8EE7B1A4EE4FA006A67E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBB8EE7C1A4EE4FA006A67E1 /* Build configuration list for PBXNativeTarget "RetroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBB8EE7D1A4EE4FA006A67E1 /* Debug */,
+				CBB8EE7E1A4EE4FA006A67E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CBB8EE511A4EE4FA006A67E1 /* Project object */;
+}
